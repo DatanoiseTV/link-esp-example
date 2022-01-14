@@ -12,12 +12,12 @@
 #include "esp_wifi.h"
 
 #define LED GPIO_NUM_2
-#define PRINT_LINK_STATE false
-#define USB_MIDI true
+#define PRINT_LINK_STATE true
+#define USB_MIDI false
 
 #define UART_PORT UART_NUM_1
-#define TX_PIN 15
-#define RX_PIN 12
+#define TX_PIN 18
+#define RX_PIN 19
 
 #define BUF_SIZE 40
 #define FRAME_DUR_US 250 // 40 * 250 us = 10 ms total buffer duration
